@@ -70,9 +70,8 @@ public class TCPClient {
             	out.println(jo.toString());
         		break;
         	default:
-        		System.out.println("Unknown operation - exiting client");
+        		System.out.println("Unknown operation");
         	}
-        	
         }
 
         out.close();
